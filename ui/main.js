@@ -1,5 +1,9 @@
 console.log('Loaded!');
 
+//change text
+var element = document.getElementbyid('main-text');
+element.innerHTML = 'New Value';
+
 //move the image
 var img = document.getElementbyid('madi');
 var marginleft = 0;
