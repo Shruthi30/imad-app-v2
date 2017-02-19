@@ -1,13 +1,13 @@
 console.log('Loaded!');
 
 //change text
-var element = document.getElementById("main-text"
+var element = document.getElementById('main-text'
         );
 
 element.innerHTML = 'New Value';
 //move the image
 
-var img = document.getElementById("madi");
+var img = document.getElementById('madi');
 var marginRight = 0;
 function moveLeft () {
     marginRight = marginRight + 10;
